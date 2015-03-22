@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, ProfileManagerActivity!</string>
+    <string name="app_name">Automatic Profile Manager</string>
+    <string name="btn_text_nextday">Next Day</string>
+    <string name="btn_text_backday">Back Day</string>
+    
+    <string name="pref_message_handler_title">Massage Handler</string>
+    <string name="pref_summary_activate_automessage">Click to activate Automatic message handler</string>
+    <string name="pref_title_activate_automessage">Activate</string>
+    <string name="pref_summary_message_body">Body of the message sent automatically</string>
+    <string name="pref_title_message_body">Message Body</string>
+    <string name="pref_summary_keyword">Keyword that identify senders necessity when phone in silent</string>
+    <string name="pref_title_keyword">Keyword</string>
+    <string name="pref_default_message_body">I m at meeting.</string>
+    <string name="pref_default_keyword">urgent!</string>
+    
+    <string name="pref_profile_manager_title">Profile Manager</string>
+    <string name="pref_summary_activate_pattern_recognition">Define to be recognized patterns</string>
+    <string name="pref_title_activate_pattern_recognition">Activate Pattern Recognition</string>
+    
+    <string name="pref_title_activate_on_db">Activate on DB</string>
+    <string name="pref_summary_activate_on_db">Define to be activated on predefined Database</string>
+    
+    <string name="pref_title_profile_change_mode_pattern">Profile Activation Mode</string>
+    <string name="pref_summary_profile_change_mode_pattern">Define profile activation mode</string>
+    
+    <string name="pref_title_activate_place_recognition">Activate Place Recognition</string>
+    <string name="pref_summary_activate_place_recognition">Define to be recognized place using Google maps</string>
+    
+    <string name="pref_title_activate_bluetooth_recognition">Activate Bluetooth Recognition</string>
+    <string name="pref_summary_activate_bluetooth_recognition">Define to be activated using Bluetooth</string>
+	
+    <string name="pref_title_bluetooth_recognition_mode">Profile Activation mode</string>
+    <string name="pref_summary_bluetooth_recognition_mode">Define profile activation mode using Bluetooth</string>
+    
+	<string-array name="phone_mode">
+	<item>	Silent	</item>
+	<item>	Vibration	</item>
+	<item>	Ring	</item>
+	<item>	Ring n Vibration</item>
+	<item>	Flight	</item>
+	</string-array>
+	
+	<string-array name="days">
+	<item>	Sunday	</item>
+	<item>	Monday	</item>
+	<item>	Tuesday	</item>
+	<item>	Wednesday</item>
+	<item>	Thursday</item>
+	<item>	Friday	</item>
+	<item>	Saturday</item>
+	</string-array>
+	
+	<string-array name="change_mode">
+	<item>	Alert User</item>
+	<item>	Automatic</item>
+	</string-array>
+	
+	<string-array name="change_mode_value">
+	<item> alertuser </item>
+	<item>	automatic </item>
+	</string-array>
+	
+</resources>

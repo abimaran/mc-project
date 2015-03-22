@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory 
+        android:title="@string/pref_message_handler_title"
+        android:key="pref_key_message_handler_settings">
+        <CheckBoxPreference
+            android:key="pref_key_activate_automessage"
+            android:summary="@string/pref_summary_activate_automessage"
+            android:title="@string/pref_title_activate_automessage"
+            android:defaultValue="false"/>
+        <EditTextPreference 
+            android:key="pref_key_message_body"
+            android:dependency="pref_key_activate_automessage"
+            android:summary="@string/pref_summary_message_body"
+            android:title="@string/pref_title_message_body"
+            android:defaultValue="@string/pref_default_message_body"/>
+        <EditTextPreference
+            android:key="pref_key_keyword"
+            android:dependency="pref_key_activate_automessage"
+            android:summary="@string/pref_summary_keyword"
+            android:title="@string/pref_title_keyword"
+            android:defaultValue="@string/pref_default_keyword"/>
+    </PreferenceCategory>
+	<PreferenceCategory 
+        android:title="@string/pref_profile_manager_title"
+        android:key="pref_key_profile_manager_settings">
+	    <CheckBoxPreference
+            android:key="pref_key_activate_on_db"
+            android:summary="@string/pref_summary_activate_on_db"
+            android:title="@string/pref_title_activate_on_db"
+            android:defaultValue="false"/>
+	    <CheckBoxPreference
+            android:key="pref_key_activate_pattern_recognition"
+            android:summary="@string/pref_summary_activate_pattern_recognition"
+            android:title="@string/pref_title_activate_pattern_recognition"
+            android:defaultValue="false"/>
+	    <ListPreference 
+	        android:title="@string/pref_title_profile_change_mode_pattern"
+            android:summary="@string/pref_summary_profile_change_mode_pattern"
+            android:key="pref_key_profile_change_mode_pattern"
+            android:dependency="pref_key_activate_pattern_recognition"
+            android:defaultValue="Alert User"
+            android:entries="@array/change_mode"
+            android:entryValues="@array/change_mode" />
+	    <CheckBoxPreference
+            android:key="pref_key_activate_place_recognition"
+            android:summary="@string/pref_summary_activate_place_recognition"
+            android:title="@string/pref_title_activate_place_recognition"
+            android:defaultValue="false"/>
+	    <CheckBoxPreference
+            android:key="pref_key_activate_bluetooth_recognition"
+            android:summary="@string/pref_summary_activate_bluetooth_recognition"
+            android:title="@string/pref_title_activate_bluetooth_recognition"
+            android:defaultValue="false"/>
+	    <ListPreference 
+	        android:title="@string/pref_title_bluetooth_recognition_mode"
+            android:summary="@string/pref_summary_bluetooth_recognition_mode"
+            android:key="pref_key_bluetooth_recognition_mode"
+            android:dependency="pref_key_activate_bluetooth_recognition"
+            android:defaultValue="Alert User"
+            android:entries="@array/change_mode"
+            android:entryValues="@array/change_mode" />
+	</PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="330dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Days &amp; Times"
+        android:textAppearance="?android:attr/textAppearanceMedium" android:layout_marginLeft="4dp" android:layout_marginRight="4dp" android:layout_marginTop="4dp" android:layout_marginBottom="4dp" android:paddingLeft="70dp" android:textColor="@color/text_colour"/>
+
+    <Button
+        android:id="@+id/btnSelectDays"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Days" android:layout_marginLeft="4dp" android:layout_marginRight="4dp"/>
+
+    <TextView
+        android:id="@+id/txtViewDays"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Days:"
+        android:textAppearance="?android:attr/textAppearanceSmall" android:layout_marginBottom="4dp" android:layout_marginLeft="4dp" android:layout_marginRight="4dp" android:textColor="@color/text_colour"/>
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="4dp" 
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="4dp">
+
+        <Button
+            android:id="@+id/btnStartTime"
+            android:layout_width="150dp"           
+            android:layout_height="wrap_content"
+            android:text="Start Time" />
+
+        <Button
+            android:id="@+id/btnendTime"
+            android:layout_width="150dp"           
+            android:layout_height="wrap_content"
+            android:text="End Time" />
+
+    </TableRow>
+
+    <TextView
+        android:id="@+id/txtViewTimes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Times:"
+        android:textAppearance="?android:attr/textAppearanceSmall" android:layout_marginLeft="4dp" android:layout_marginRight="4dp" android:layout_marginTop="4dp" android:textColor="@color/text_colour"/>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="4dp" 
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="4dp">
+
+        <Button
+            android:id="@+id/btnBackPeriod"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            
+            android:text="Back Period" />
+
+        <Button
+            android:id="@+id/btnNextPeriod"
+            android:layout_width="150dp"          
+            android:layout_height="wrap_content"
+            android:text="Next Peroid " />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="4dp" 
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="4dp">
+
+        <Button
+            android:id="@+id/btnAddPeriod"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"                                  
+            android:text="Add" />
+
+        <Button
+            android:id="@+id/btnDelPeriod"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Delete" />
+
+    </TableRow>
+
+</LinearLayout>
+<TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="4dp" 
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="4dp">
+
+        <Button
+            android:id="@+id/btnSaveTime"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"                                  
+            android:text="Save" />
+
+        <Button
+            android:id="@+id/btnCancelTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancel" />
+
+    </TableRow>
+    
+</LinearLayout>

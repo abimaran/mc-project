@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+<style name="btnlook" >
+            
+            <item name="android:textColor">@color/button_text</item>
+            <item name="android:textSize">6pt</item>
+            <item name="android:onClick">onButtonClicked</item>
+            
+           
+           
+    </style>
+</resources>
