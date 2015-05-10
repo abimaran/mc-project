@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">SmartProfileSelector</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_user_profile_creator">UserProfileCreator</string>
+
+    <!-- Profile Manager ActionBarActivity -->
+
+
+    <!-- User Profile Creator Activity-->
+
+
+    <!-- Phone Modes -->
+    <string-array name="phone_mode">
+        <item>	Silent	</item>
+        <item>	Vibration	</item>
+        <item>	Ring	</item>
+        <item>	Ring n Vibration</item>
+        <item>	Flight	</item>
+    </string-array>
+
+</resources>

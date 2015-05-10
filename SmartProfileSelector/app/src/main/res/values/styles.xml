@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="android:textColor">@color/button_material_dark</item>
+        <!-- item name="android:textSize">6pt</item -->
+        <!--item name="android:onClick">onButtonClicked</item -->
+
+
+
+    </style>
+
+</resources>
